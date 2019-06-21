@@ -11,3 +11,8 @@ def index():
 def quick():
     return render_template('quick.html')
 
+
+@app.route('/admin')
+def admin():
+    return render_template('admin.html')
+    
